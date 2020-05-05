@@ -1,0 +1,12 @@
+/Users/abergeld/Graph/bin/Debug/netcoreapp3.1/Graph.deps.json
+/Users/abergeld/Graph/bin/Debug/netcoreapp3.1/Graph.runtimeconfig.json
+/Users/abergeld/Graph/bin/Debug/netcoreapp3.1/Graph.runtimeconfig.dev.json
+/Users/abergeld/Graph/bin/Debug/netcoreapp3.1/Graph.dll
+/Users/abergeld/Graph/bin/Debug/netcoreapp3.1/Graph.pdb
+/Users/abergeld/Graph/obj/Debug/netcoreapp3.1/Graph.csprojAssemblyReference.cache
+/Users/abergeld/Graph/obj/Debug/netcoreapp3.1/Graph.csproj.CoreCompileInputs.cache
+/Users/abergeld/Graph/obj/Debug/netcoreapp3.1/Graph.AssemblyInfoInputs.cache
+/Users/abergeld/Graph/obj/Debug/netcoreapp3.1/Graph.AssemblyInfo.cs
+/Users/abergeld/Graph/obj/Debug/netcoreapp3.1/Graph.dll
+/Users/abergeld/Graph/obj/Debug/netcoreapp3.1/Graph.pdb
+/Users/abergeld/Graph/obj/Debug/netcoreapp3.1/Graph.genruntimeconfig.cache
