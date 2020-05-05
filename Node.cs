@@ -12,8 +12,8 @@ namespace Graph
             adjecent = new List<Node<T>>();
         }
         public List<Node<T>> adjecent { get; set; }
-        public T data { get; set; }
-        public int id { get; set; }
+        public T data { get; set; } // Generic Node Data.
+        public int id { get; set; } 
 
     }
 }

@@ -10,18 +10,20 @@ namespace Graph
         {
             graph = new Dictionary<int, Node<T>>();
         }
-        public Dictionary<int, Node<T>> graph { get; set; }
+        public Dictionary<int, Node<T>> graph { get; set; } // this Dictionary re
         public void addElement(Node<T> node)
         {
             if (node != null) graph.Add(node.id, node);
         }
+        //get node by id , return null if the node doesnt exits
         public Node<T> getElement(int id)
         {
             Node<T> value;
             graph.TryGetValue(id, out value);
             return value;
         }
-
+        // add Graph edge between two nodes , if the Nodes doesnt exits,
+        // the function will do nothing
         public void addEdge(int source, int destination)
         {
             Node<T> s = getElement(source);
@@ -29,7 +31,7 @@ namespace Graph
             if(s == null || d == null) return;
             s.adjecent.Add(d);
         }
-
+        // find if there a path with BFS algorithm
         public bool hasPathBFS(int source, int destination)
         {
             Node<T> s = getElement(source);
