@@ -34,6 +34,13 @@ namespace Graph
             Console.WriteLine(graph.hasPathBFS(1,7));
             Console.WriteLine(graph.hasPathBFS(1,8));
             Console.WriteLine(graph.hasPathBFS(1,9));
+            // BFS Path .
+            string reuslt  = "";
+            var resultList = graph.PathBFS(1,7);
+            foreach(Node<string> node in resultList)
+                reuslt += node.id + " ";
+            Console.WriteLine(reuslt);
+            
             Console.WriteLine("End");
         }
     }
