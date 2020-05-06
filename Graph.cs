@@ -10,7 +10,7 @@ namespace Graph
         {
             graph = new Dictionary<int, Node<T>>();
         }
-        public Dictionary<int, Node<T>> graph { get; set; } // this Dictionary re
+        public Dictionary<int, Node<T>> graph { get; set; } 
         public void addElement(Node<T> node)
         {
             if (node != null) graph.Add(node.id, node);
